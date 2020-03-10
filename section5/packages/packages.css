@@ -33,12 +33,25 @@ main {
   background: white;
 }
 
+.clearfix {
+  clear: both;
+}
+
 #plus {
   background: rgba(213, 255, 220, 0.95);
 }
 
 #free {
   background: rgba(234, 252, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
+}
+/* free plan을 가르킬 때 왼쪽 border가 변하지 않는 이유는 상단에 id셀렉터가 class나 sudo셀렉터보다 specificity가 더 높기 때문이다. !important대신 보통 이렇게 써준다 */
+#free:hover,
+#free:active {
+  border-left-color: #ff5454;
 }
 
 #premium {
