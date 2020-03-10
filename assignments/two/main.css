@@ -1,0 +1,43 @@
+html,
+body {
+  width: 80%;
+  height: 100%;
+  background: #eee;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 8px 0;
+}
+
+h1:hover {
+  cursor: pointer;
+  border-bottom: 5px solid #7f78d2;
+}
+.box {
+  display: inline-block;
+  color: #481380;
+  padding: 5px 10px;
+  margin: 8px 16px;
+  border: 5px solid #efb1ff;
+  text-align: center;
+  font-weight: bold;
+  background: #ffe2ff;
+}
+
+.second-box:hover,
+.second-box:active {
+  color: #ffe2ff;
+  background: #481380;
+}
+
+.first-box {
+  margin: 0;
+  width: 50%;
+  /* height: 100%; */
+  /* box-sizing: border-box; */
+  height: 300px;
+  /* display: none; */
+  /* visibility: hidden; */
+}

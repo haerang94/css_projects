@@ -1,0 +1,39 @@
+body {
+  font: sans-serif;
+}
+
+nav {
+  margin-bottom: 16px;
+  background: #fa923f;
+  padding: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+a.active {
+  color: #521751;
+}
+
+/* a {
+  color: blue;
+} */
+/* 밑의 코드를 쓰는 것보다 위 처럼 하는 것이 좋다.
+왜냐하면 더 자세한 설명인 것이 우선으로 스타일이 적용되기 때문이다. 굳이 :not()을 쓰기보다는 기본 태그와 기본태그+알파 형식으로 써주는 편이 좋다  */
+/* a:not(.active) {
+  color: blue;
+} */
+
+.main-section {
+  height: 800px;
+  border: 2px solid #ccc !important;
+  padding: 16px;
+  background: pink;
+}
+
+.highlighted {
+  border: 2px solid #fa923f;
+}
